@@ -17,6 +17,7 @@ body {
   background-color: #222;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   /* background-color: #60b347; */
 }
 
@@ -31,12 +32,21 @@ header {
 }
 
 main {
-  height: 60vh;
+  height: 55vh;
   color: #eee;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+}
+
+footer {
+  height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
 /* ELEMENTS STYLE */
@@ -106,4 +116,18 @@ h1 {
 .label-highscore {
   margin: 1rem 0;
   font-size: 1.5rem;
+}
+
+footer hr {
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer a:hover {
+  color: #ff901b;
 }

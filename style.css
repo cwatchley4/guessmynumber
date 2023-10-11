@@ -67,13 +67,11 @@ h1 {
 .between {
   font-size: 1.5rem;
   text-align: center;
-  margin: 4rem 0;
 }
 
 .again {
   top: 2rem;
   left: 2rem;
-  margin-top: 1rem;
 }
 
 .guess {
@@ -86,7 +84,6 @@ h1 {
   width: 25rem;
   text-align: center;
   display: block;
-  margin: 1.5rem 0;
 }
 
 .btn {
@@ -105,25 +102,18 @@ h1 {
 
 .message {
   font-size: 2rem;
-  margin: 1.5rem 0;
 }
 
 .label-score {
-  margin: 1rem 0;
   font-size: 1.5rem;
 }
 
 .label-highscore {
-  margin: 1rem 0;
   font-size: 1.5rem;
 }
 
 footer hr {
   width: 100%;
-}
-
-footer p {
-  margin: 0 1rem;
 }
 
 footer a {
@@ -145,14 +135,6 @@ footer a:hover {
 }
 
 @media (max-width: 460px) {
-  .between,
-  .message,
-  .guess,
-  .label-score,
-  .label-highscore,
-  .again {
-    margin: 0;
-  }
   footer p {
     font-size: 0.8rem;
   }

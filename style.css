@@ -122,6 +122,10 @@ footer hr {
   width: 100%;
 }
 
+footer p {
+  margin: 0 1rem;
+}
+
 footer a {
   color: white;
   text-decoration: none;
@@ -130,4 +134,29 @@ footer a {
 
 footer a:hover {
   color: #ff901b;
+}
+
+/* MOBILE DESIGN */
+
+@media (max-width: 680px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .between,
+  .message,
+  .guess,
+  .label-score,
+  .label-highscore,
+  .again {
+    margin: 0;
+  }
+  footer p {
+    font-size: 0.8rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
 }
